@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "PT Sans Narrow",  Arial, Helvetica, sans-serif, Segoe WP, Segoe WP Light, Asap Regular;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+
+
+.main-header {
+    width: 1020px;
+    min-height: 120px;
+
+    background-color: black;
+
+    display: flex;
+   
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.site-navigation li {
+    padding: 10px 15px;
+    list-style: none;
+    
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    height: 560px;
+    background-color: #503c26;
+    background-image: url(rs-img/Layer\ 20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+
+}
