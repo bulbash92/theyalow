@@ -1,50 +1,123 @@
 body {
+    max-width: 1024px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 
-    font-family: "PT Sans Narrow",  Arial, Helvetica, sans-serif, Segoe WP, Segoe WP Light, Asap Regular;
+    @font-face {
+        font-family: PT Sans Narrow;
+        src: url(assets/pt-sans/PTC55F.ttf);
+    }
+
+    font-family: "PT Sans Narrow",
+    Arial,
+    Helvetica,
+    sans-serif,
+    Segoe WP,
+    Segoe WP Light,
+    Asap Regular;
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
     color: #ffffff;
-    
+    background-color: gray;
+
 }
 
 
 .main-header {
-    width: 1020px;
+    max-width: 1024px;
     min-height: 120px;
 
     background-color: black;
 
-    display: flex;
-   
+
+
+    border: 1px solid red;
+
 }
 
 .main-navigation {
     display: flex;
+
     justify-content: space-between;
+    border: 1px solid red;
+
+}
+
+
 }
 
 .site-navigation {
+
     display: flex;
-    flex-wrap: wrap
+
+
+    width: 453px;
+    height: 40px;
+    margin: 0;
+    margin-top: 70px;
+    padding: 0;
+    border: 1px solid red;
 }
 
 .site-navigation li {
+    flex-wrap: wrap;
     padding: 10px 15px;
     list-style: none;
-    
+
 }
 
 .wrapper {
+
     margin: 0;
     padding: 0;
     height: 560px;
     background-color: #503c26;
-    background-image: url(rs-img/Layer\ 20.png);
+    background-image: url(assets/Layer\ 20.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
 
+}
+
+
+}
+
+.main-header-logo {
+    width: 83px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+
+}
+
+.logo-top {
+    margin: 0;
+    margin-top: 27px;
+    position: relative;
+}
+
+.logo-button {
+    position: relative;
+    left: -85px;
+    margin: 0;
+}
+
+.header-logo {
+    font-size: 41px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    border: 1px solid red;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo::before {
+    content: "";
+    display: block;
+    width: 85px;
+    height: 85px;
+    background: url(assets/logo1.png) no-repeat, center url(assets/logo2.png) no-repeat;
 }
