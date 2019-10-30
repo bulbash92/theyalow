@@ -5,80 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="theyalow.css">
+
     <title>THEYALOW</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="main-header">
-            <nav class="main-navigation">
+        <div class="main-container">
 
-                <a class="header-logo" href="index.html" alt="Логотип">
-                    THEYALOW
-                </a>
-              
-                   
-                
-                <ul class="site-navigation">
-                    <li>About us</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+            <header class="main-header">
+                <div class="main-container">
+                    <h1 class="visually-hidden">THEYALOW</h1>
+                    <nav class="main-navigation">
 
-                </ul>
-            </nav>
-        </header>
-        <main class="container">
-            <section class="slider">
-                <video src="#" width="550px" height="328px" poster="assets/video.jpg" controls="controls"></video>
-                <p>The cool<br>
-                    The minimal</p>
-            </section>
-            <section class="features">
-                <ul class="features-icon">
-                    <li>
+                        <a class="header-logo" href="index.html" alt="Логотип">
+                            <p>THEYALOW</p>
+                        </a>
+
+                        <ul class="site-navigation">
+                            <li class="icon1"><img src="assets/icon1.svg" alt="about us"><a href="#"></a>ABOUT US</a>
+                            </li>
+                            <li class="icon2"><img src="assets/icon2.svg" alt="services"><a href="#">SERVICES</a></li>
+                            <li class="icon3"><img src="assets/icon3.svg" alt="contact"><a href="#">CONTACT</a></li>
+
+                        </ul>
+                    </nav>
+            </header>
+            <main class="container">
+                <section class="slider">
+                    <video src="#" width="550px" height="328px" poster="assets/video.png">
+                    </video>
+
+                    <div class="slider-text">
+                        <p class="yellow">THE COOL</p>
+                        <p class="white">THE MINIMAL</p>
+
+                </section>
+        </div>
+        <div class="shadow"></div>
+
+        <section class="features ">
+            <div class="main-container">
+                <ul class="features-list">
+                    <li class="features-logo better"><img src="assets/better.svg" width="109" height="74"
+                            alt="better design">
                         <h3>Better design</h3>
                     </li>
-                    <li>
+                    <li class="features-logo customize"><img src="assets/customise.svg" width="91" height="95"
+                            alt="customize">
                         <h3>Customise</h3>
                     </li>
-                    <li>
+                    <li class="features-logo free"><img src="assets/free.svg" width="81" height="83" alt="its free">
                         <h3>Its free</h3>
                     </li>
                 </ul>
-            </section>
-            <span type="button"></span>
-            <span type="button"></span>
-            <section class="block1">
-                <h2>Lorem ipsum dolor amet</h2>
-                <div class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
-                </div>
-                <div>
-                    <video src="#" width="315px" height="230px" poster="rs-img/video2.png"></video>
-                </div>
-                <div></div>
-                <span>25 april</span>
-            </section>
-            <section class="block2">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <ul class="content">
-                    <li>sed ut perspiciatis unde omnis</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                    <li>Sed ut perspiciatis unde omnis</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
-                </ul>
+            </div>
+        </section>
 
-            </section>
+
+        <section class="section1">
+            <div class="main-container">
+                <h2>Lorem ipsum dolor amet</h2>
+                <div class="scroll1">
+                    <div class="text-section">
+                        <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut
+                        </article>
+                        <img src="assets/Shape 11.svg" alt="add">
+                    </div>
+
+                    <div class="player">
+                    <video src="#" width="315" height="233" poster="#"></video>
+                    </div>
+                    <div class="twitter">
+                        <span>22</span>
+                        <img src="assets/Shape 11.svg" alt="add">
+                    </div>
+                </div>
+                <div class="data-text">
+                    <span class="day">25</span>
+                    <span class="month">APRIL</span>
+                </div>
+                <input id="slider-1" type="range" min="0" max="100" value="30" name="slider">
+            </div>
+        </section>
+        <section class="block2">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <ul class="content">
+                <li>sed ut perspiciatis unde omnis</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+                <li>Sed ut perspiciatis unde omnis</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing</li>
+            </ul>
+
+        </section>
         </main>
     </div>
     <footer>
-        <a class="theyalow-footer-logo">
-            <img src="#">
-            <h3>theyalow</h3>
+        <a class="footer-logo">
+
         </a>
     </footer>
-
+    </div>
 </body>
 
 </html>
